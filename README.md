@@ -34,7 +34,24 @@ install kubescape and scan the k8s and creats scanned document file
 kubespace --version
 export PATH=$PATH:/usr/local/bin    ---exported the environment variable 
 kubescape scan --format json --output security-findings.json      =--scan the k8s and its finding of vulnerabilty in json format
-    
+    ==============================================================================================
+
+    kubectl get pods
+kubectl get svc
+vim deployment.yaml
+vim service.yaml
+kubectl apply -f deployment.yaml
+kubectl apply -f service.yaml
+kubectl get pods
+kubectl get svc golang-time-app-service
+vim service.yaml
+kubectl apply -f service.yaml
+kubectl get svc golang-time-app-service
+
+========================================================================
+
+
+
 
 
 
