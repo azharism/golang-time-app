@@ -12,3 +12,9 @@ and push is to docker hub ---- link is https://hub.docker.com/repositories/88151
 create pod and expose it on 30001 as per task 
 
 
+===================================================================
+curl -s https://raw.githubusercontent.com/kubescape/kubescape/master/install.sh | /bin/bash
+install kubescape and scan the k8s and creats scanned document file
+
+
+
