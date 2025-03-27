@@ -1,3 +1,4 @@
+
 # golang-time-app
 
 task===3=====================================
@@ -20,6 +21,9 @@ kubectl get svc
      kubectl get svc golang-time-app-service
     vim service.yaml
      kubectl apply -f service.yaml
+
+     kubectl get svc golang-time-app-service
+
 
 
 ===================================================================task2============================================================
