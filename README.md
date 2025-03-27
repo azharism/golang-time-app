@@ -49,7 +49,33 @@ kubectl apply -f service.yaml
 kubectl get svc golang-time-app-service
 
 ========================================================================
+golang-time-app
 
+---
+
+##  Task 2: Deploy Go App on Minikube on cluster
+
+---
+
+### 🎯 1. Run Go Code
+
+Run the Go app with the following command:
+
+```bash
+go run time.go &   -----for backgroung run if terminal exit
+
+======================================================================================
+
+Minikube Setup and Image Creation
+Installed Minikube on EC2
+
+Created a containerized image of the Go app
+
+Pushed the image to Docker Hub:
+
+Docker Hub Link:---------------
+Docker Hub - 88151
+https://hub.docker.com/repositories/88151
 
 
 
